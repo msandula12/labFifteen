@@ -1,0 +1,35 @@
+/* index page */
+body {
+  background: #3ab2ec;
+  font-family: Verdana;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+h1 {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #1072a1;
+  padding: 8px;
+  color: #fff;
+}
+a:hover {
+  background: #083950;
+}
+/* input page */
+input {
+  display: block;
+  width: 50%;
+  padding: 6px;
+}
+button {
+  margin-top: 20px;
+  width: 50%;
+  padding: 6px;
+}
+/* display page */

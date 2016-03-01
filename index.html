@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- CSS compiled with Stylus -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Mad Libs 2.0</title>
+</head>
+<body ng-app="madLibModule">
+	<div class="container">
+		<h1>Mad Libs 2.0</h1>
+		<p>
+			<a href="#/">Input</a>
+			<a href="#/views/display">Display</a>
+		</p>
+
+		<!-- Partial view viewer -->
+		<ng-view></ng-view>
+	</div>
+
+	<!-- AngularJS libraries -->
+	<script src="scripts/libs/angular.min.js"></script>	
+	<script src="scripts/libs/angular-route.min.js"></script>
+	<!-- My JavaScript app -->
+	<script src="scripts/app.js"></script>
+	<!-- Service script -->
+	<script src="scripts/service.js"></script>
+	<!-- Controller scripts -->
+	<script src="scripts/controllers/displayController.js"></script>
+	<script src="scripts/controllers/inputController.js"></script>
+</body>
+</html>
