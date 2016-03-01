@@ -2,13 +2,14 @@
 body {
   background: #3ab2ec;
   font-family: Verdana;
+  color: #fff;
 }
 .container {
   width: 60%;
   margin: 0 auto;
 }
 h1 {
-  color: #fff;
+  font-size: 2.5em;
 }
 a {
   text-decoration: none;
@@ -24,12 +25,27 @@ a:hover {
 /* input page */
 input {
   display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
   width: 50%;
   padding: 6px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 button {
-  margin-top: 20px;
+  margin-bottom: 20px;
   width: 50%;
-  padding: 6px;
+  height: 30px;
+  padding: 10px;
+  background: #61c1f0;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+button:hover {
+  background: #89d1f4;
+  cursor: pointer;
 }
 /* display page */
