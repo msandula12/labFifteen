@@ -11,6 +11,9 @@ body {
 h1 {
   font-size: 2.5em;
 }
+#navigation {
+  margin-bottom: 30px;
+}
 a {
   text-decoration: none;
   text-transform: uppercase;
